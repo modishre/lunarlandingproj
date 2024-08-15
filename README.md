@@ -79,26 +79,27 @@ When testing, a gui will appear to watch the agent live.
 
 ## Running the Code
 
-### 1. Training the Agent
+### 1. Testing the Agent
 
-To train the agent, run the `main.py` script:
+To test a pre-trained agent, ensure you have a saved model (`trainedModel.pth`), then run the `lunarLander.py` script::
+
+If you want to test a pre-trained model, make sure that the test_agent function is called in the script and the train_agent is commented out!!!!
+ The train_agent function should be commented out to prevent retraining the model.
+
+
+This will load the trained model and run it on the environment for a few episodes, displaying the agent's performance.
+
+### 2. Training the Agent
+
+To train the agent, uncomment the train_agent() function on line 359 and run the `lunarLander.py` script:
+
+####THIS WILL OVERIDE THE CURRENT SAVED MODEL!
 
 ```bash
 python3 lunarLander.py
 ```
 
 This script will initialize the environment, train the agent, and save the trained model periodically. It will also generate plots showing the training progress, including total rewards and losses per episode.
-
-### 2. Testing the Agent
-
-To test a pre-trained agent, ensure you have a saved model (`trainedModel.pth`), then run the script:
-
-If you want to test a pre-trained model, make sure that the test_agent function is called in the script and the train_agent is commented out!!!!
- The train_agent function should be commented out to prevent retraining the model.
-
-
-
-This will load the trained model and run it on the environment for a few episodes, displaying the agent's performance.
 
 ## Repository Structure
 
