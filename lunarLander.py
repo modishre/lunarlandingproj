@@ -355,8 +355,8 @@ agent = DQNAgent(state_dim, action_dim, device)
 
 ##########################################
 
-# COMMENT OUT TO NOT TRAIN AND ONLY RUN TEST
-train_agent(agent, env, num_episodes)
+# UNCOMMENT TO TRAIN AGENt, THIS WILL OVERRIDE THE FINAL SUBMITTED AGENT
+# train_agent(agent, env, num_episodes)
 
 ##########################################
 
