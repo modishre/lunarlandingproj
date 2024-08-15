@@ -79,18 +79,19 @@ All dependencies are listed in the `requirements.txt` file.
 To train the agent, run the `main.py` script:
 
 ```bash
-python main.py
+python3 lunarLander.py
 ```
 
 This script will initialize the environment, train the agent, and save the trained model periodically. It will also generate plots showing the training progress, including total rewards and losses per episode.
 
 ### 2. Testing the Agent
 
-To test a pre-trained agent, ensure you have a saved model (`trainedmodel.pth`), then run the script:
+To test a pre-trained agent, ensure you have a saved model (`trainedModel.pth`), then run the script:
 
-```bash
-python main.py --test
-```
+If you want to test a pre-trained model, make sure that the test_agent function is called in the script and the train_agent is commented out!!!!
+ The train_agent function should be commented out to prevent retraining the model.
+
+
 
 This will load the trained model and run it on the environment for a few episodes, displaying the agent's performance.
 
@@ -99,7 +100,7 @@ This will load the trained model and run it on the environment for a few episode
 ```bash
 lunar-lander-dqn/
 │
-├── main.py                    # Main script to train and test the DQN agent
+├── lunarLander.py                    # Main script to train and test the DQN agent
 ├── qnetwork.py                # Defines the Q-network architecture
 ├── dqn_agent.py               # Defines the DQN agent class and its methods
 ├── requirements.txt           # Lists all the dependencies required for the project
