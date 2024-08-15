@@ -117,5 +117,3 @@ lunar-lander-dqn/
 - Project Authors: Shreya Modi and Alex Smith
 
 ---
-
-Feel free to modify the sections as necessary to match your specific project details. This README file should give clear instructions on setting up the environment, installing dependencies, and running the code, which is crucial for anyone who wants to use or build upon your work.
