@@ -72,6 +72,11 @@ The primary dependencies for this project include:
 
 All dependencies are listed in the `requirements.txt` file.
 
+###Visualization
+
+When training the agent, the episode and reward are printed to the console.
+When testing, a gui will appear to watch the agent live.
+
 ## Running the Code
 
 ### 1. Training the Agent
