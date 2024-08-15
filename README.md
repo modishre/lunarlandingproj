@@ -12,7 +12,7 @@
 
 ## Project Overview
 
-In this project, a DQN agent is trained to play the Lunar Lander game using reinforcement learning. The agent is built using PyTorch and utilizes experience replay and a target network to stabilize learning.
+In our project, a DQN agent is trained to play the Lunar Lander game using reinforcement learning. The agent is built using PyTorch and utilizes experience replay and a target network to stabilize learning.
 
 ### Key Features:
 
@@ -23,15 +23,15 @@ In this project, a DQN agent is trained to play the Lunar Lander game using rein
 
 ## Environment Setup
 
-To recreate the environment and run the code, follow these steps:
+To recreate the environment and run the code, please follow these steps:
 
 ### 1. Clone the Repository
 
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/lunar-lander-dqn.git
-cd lunar-lander-dqn
+git clone https://github.com/yourusername/lunarlandingproj.git
+cd lunarlandingproj
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
@@ -114,10 +114,7 @@ lunar-lander-dqn/
 
 ## Credits
 
-- Project Authors: [Your Name] and [Collaborator's Name]
-- Tools Used: OpenAI Gym, PyTorch, Matplotlib, Numpy
-
-If you encounter any issues or have questions, please feel free to open an issue in the repository or contact us at [your email address].
+- Project Authors: Shreya Modi and Alex Smith
 
 ---
 
