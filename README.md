@@ -30,7 +30,7 @@ To recreate the environment and run the code, please follow these steps:
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/lunarlandingproj.git
+git clone https://github.com/modishre/lunarlandingproj.git
 cd lunarlandingproj
 ```
 
